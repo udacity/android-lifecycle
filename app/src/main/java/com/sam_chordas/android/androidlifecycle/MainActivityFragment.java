@@ -25,6 +25,7 @@ public class MainActivityFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
         Button button = (Button) rootView.findViewById(R.id.toFragment);
+        Log.i(LOG_TAG, "MainActivityFragment onCreateView");
 
         button.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
